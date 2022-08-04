@@ -1,0 +1,57 @@
+<!--La página de contacto debe incluir al menos la información básica de contacto 
+  (teléfono, correo electrónico) y un formulario con los siguientes elementos: 
+  Nombre, correo electrónico, motivo de contacto (select), mensaje (textarea) y botón de submit.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JASUMCAM.com</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../projects/index.html">Projects</a></li>
+        <li><a href="../resume/index.html">Resume</a></li>
+        <li><a href="../contact/index.html">Contact</a> </li>
+      </ul>      
+    </nav>
+  </header>
+
+  <main>
+    <form action="">
+      <label for="name">Name:
+        <input placeholder="Your name" type="name" id="name">
+      </label>
+
+      <label for="mail">Email:
+        <input placeholder="Your email address" type="email" id="mai">
+      </label>
+
+      <label for="contact">Reason for contact</label>
+      <select name="contact" id="contact">
+        <option value="#">Empty</option>
+        <option value="#">Web Design</option>
+        <option value="#">Software Development</option>
+        <option value="#">IT</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea placeholder="Let your message..." id="message" name="message" maxlength="1000"></textarea>
+
+      <button type="submit">SEND</button>
+    </form>
+
+    <address>
+      <h3>Contact</h3>
+      <a href="tel:+50670525446">+506 7052 5446</a>
+      <a href="mailto:ucampos.jason@gmail.com">ucampos.jason@gmail.com</a>
+    </address>
+  </main>
+</body>
+</html>
