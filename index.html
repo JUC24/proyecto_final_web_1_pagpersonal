@@ -10,49 +10,70 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JASUMCAM.com</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <h1>JasUmCam</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects/index.html">Projects</a></li>
-        <li><a href="resume/index.html">Resume</a></li>
-        <li><a href="contact/index.html">Contact</a> </li>
-      </ul>      
-    </nav>
+    <div class="header_flex_conteiner">
+      <h1>JasUmCam</h1>
+      <nav>
+        <a class="text_style" href="index.html">Home</a>
+        <a class="text_style" href="projects/index.html">Projects</a>
+        <a class="text_style" href="resume/index.html">Resume</a>
+        <a class="text_style" href="contact/index.html">Contact</a>      
+      </nav>
+    </div>
   </header>
-
+  
   <main>
     <div>
       <section> <!--Home: About me sectio-->
-        <div></div>
-        <h2>About Me</h2>
+        <div class="about_me_flex_conyeinar">
+          <div>
+            <img class="img_per" src="imgs/perfil.jpg" alt="">
+          </div>
   
-        <span>Hi !!</span> <span>Welcome</span>
-
-        <div>
-          <p>
-            I'm <b>Jason Umaña,</b>, i'm a network technician, web and software developer from Costa Rica, in progress and constant evolution.
-            I hope one day to create something so useful and special that it will help humanity.
-          </p>
+          <div class="about_me_text_box">
+            <h2>About Me</h2>
+      
+            <div>
+              <span>Hi !!</span> <span>Welcome</span>
+  
+              <p class="descript_text">
+                I'm <b>Jason Umaña</b>, i'm a network technician, web and software developer from Costa Rica, in progress and constant evolution.
+                I hope one day to create something so useful and special that it will help humanity.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-  
+    
       <section><!--Recently_projects_section-->
-        <div>
-          <a href="portafolio/index.html"><img src="imgs/biccas.png" alt=""></a>
-        </div>
-        
-        <div>
-          <a href="portafolio/index.html"><img src="imgs/dalio_creative_digital_agency.png" alt=""></a>
+        <div class="recently_projects">
+          <h2>Recently Projects</h2>
+          <div class="img_flex_conteiner">
+            <div>
+              <a href="projects/index.html"><img class="img" src="imgs/biccas.png" alt=""></a>
+            </div>
+              
+            <div>
+              <a href="projects/index.html"><img class="img" src="imgs/dalio_creative_digital_agency.png" alt=""></a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
   </main>
 
+  <footer>
+    <div class="footer_flex_conteiner">
+      <p>© 2022 Copyright and rights reserved</p>
+      <p>Terms and Condtions</p>
+    </div>
+  </footer>
 </body>
-
 </html>

@@ -5,53 +5,72 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JASUMCAM.com</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASUMCAM.com</title>
+    <link rel="stylesheet" href="../contact/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../projects/index.html">Projects</a></li>
-        <li><a href="../resume/index.html">Resume</a></li>
-        <li><a href="../contact/index.html">Contact</a> </li>
-      </ul>      
-    </nav>
+    <div class="header_flex_conteiner">
+      <h1>JasUmCam</h1>
+      <nav>
+        <a class="text_style" href="../index.html">Home</a>
+        <a class="text_style" href="../projects/index.html">Projects</a>
+        <a class="text_style" href="../resume/index.html">Resume</a>
+        <a class="text_style" href="../contact/index.html">Contact</a>      
+      </nav>
+    </div>
   </header>
 
   <main>
-    <form action="">
-      <label for="name">Name:
-        <input placeholder="Your name" type="name" id="name">
-      </label>
-
-      <label for="mail">Email:
-        <input placeholder="Your email address" type="email" id="mai">
-      </label>
-
-      <label for="contact">Reason for contact</label>
-      <select name="contact" id="contact">
-        <option value="#">Empty</option>
-        <option value="#">Web Design</option>
-        <option value="#">Software Development</option>
-        <option value="#">IT</option>
-      </select>
-
-      <label for="message">Message:</label>
-      <textarea placeholder="Let your message..." id="message" name="message" maxlength="1000"></textarea>
-
-      <button type="submit">SEND</button>
-    </form>
-
-    <address>
-      <h3>Contact</h3>
-      <a href="tel:+50670525446">+506 7052 5446</a>
-      <a href="mailto:ucampos.jason@gmail.com">ucampos.jason@gmail.com</a>
-    </address>
+    <div class="form_conteiner">
+      <form class="form" action="">
+        <label class="display_block" for="name">Name:
+          <input class="input_width" placeholder="Your name" type="name" id="name">
+        </label>
+  
+        <label class="display_block" for="mail">Email:
+          <input class="input_width" placeholder="Your email address" type="email" id="mai">
+        </label>
+  
+        <label class="display_block" for="contact">Reason for contact</label>
+        <select class="input_width_diferent" name="contact" id="contact">
+          <option value="#">Empty</option>
+          <option value="#">Web Design</option>
+          <option value="#">Software Development</option>
+          <option value="#">IT</option>
+        </select>
+  
+        <label class="display_block" for="message">Message:</label>
+        <textarea class="input_width_diferent" placeholder="Let your message..." id="message" name="message" maxlength="1000"></textarea>
+  
+        <button  class="button_style" type="submit">SEND</button>
+      </form>
+  
+      <address>
+        <div class="address_conteiner">
+          <h3>Contact</h3>
+          <div>
+            <a href="tel:+50670525446">Pho: +506 7052 5446</a>
+            <a href="mailto:ucampos.jason@gmail.com">Mail: ucampos.jason@gmail.com</a>
+          </div>
+        </div>
+      </address>
+    </div>
   </main>
+
+  <footer>
+    <div class="footer_flex_conteiner">
+      <p>© 2022 Copyright and rights reserved</p>
+      <p>Terms and Condtions</p>
+    </div>
+  </footer>
 </body>
 </html>
