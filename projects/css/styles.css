@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   font-family: 'Cinzel', arial, helvetica, sans-serif;
   background: url(../../imgs/backgrounds/first_backgrund.jpg) no-repeat;
@@ -6,23 +6,23 @@ body{
   color:white;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   margin: 15px;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 15px;
 }
 
-h2{
+h2 {
   font-size: 40px;
   line-height: 15px;
 }
 
-.header_flex_conteiner{
+.header_conteiner {
   max-width: 1000px;
   margin: 30px auto 0px auto;
   display: flex;
@@ -30,7 +30,7 @@ h2{
   justify-content: space-around;
 }
 
-.flex_contener{
+.contener {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.5);  
@@ -43,18 +43,18 @@ h2{
   align-items: center;
 }
 
-.img{
+.img {
   max-width: 450px;
   max-height: 450px;
   border-radius: 50%;
 }
 
-.text_style{
+.text_style {
   font-weight: 600;
   font-size: 22px;
 }
 
-.footer_flex_conteiner{
+.footer_conteiner {
   max-width: 1000px;
   margin: 100px auto 40px auto;
   display: flex;
@@ -63,7 +63,7 @@ h2{
   font-size: 24px;
 }
 
-.text_box{
+.text_box {
   max-width: 800px;
   margin-left: 10px;
 }

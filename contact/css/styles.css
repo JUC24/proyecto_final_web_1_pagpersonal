@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   font-family: 'Cinzel', arial, helvetica, sans-serif;
   background: url(../../imgs/backgrounds/first_backgrund.jpg) no-repeat;
@@ -6,29 +6,29 @@ body{
   color:white;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   margin: 15px;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 15px;
 }
 
-h3{
+h3 {
   font-weight: 600;
   font-size: 28px;
   line-height: 10px;
 }
 
-.text_style{
+.text_style {
   font-weight: 600;
   font-size: 22px;
 }
 
-.header_flex_conteiner{
+.header_conteiner {
   max-width: 1000px;
   margin: 30px auto 0px auto;
   display: flex;
@@ -36,7 +36,7 @@ h3{
   justify-content: space-around;
 }
 
-.form_conteiner{
+.form_conteiner {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.5);  
@@ -46,7 +46,7 @@ h3{
   margin: 90px auto 0px auto;
 }
 
-.footer_flex_conteiner{
+.footer_conteiner {
   max-width: 1000px;
   margin: 100px auto 40px auto;
   display: flex;
@@ -55,25 +55,25 @@ h3{
   font-size: 24px;
 }
 
-.display_block{
+.display_block {
   display: block;
   margin-top: 60px;
 }
 
 
-.input_width{
+.input_width {
   width: 440px;
   height: 50px;
   border-radius: 15px;
 }
 
-.input_width_diferent{
+.input_width_diferent {
   width: 250px;
   height: 50px;
   border-radius: 15px;
 }
 
-.button_style{
+.button_style {
   display: block;
   margin-top: 30px;
   border-radius: 10px;
@@ -83,9 +83,7 @@ h3{
   font-size: 18px;
 }
 
-.address_conteiner{
+.address_conteiner {
   max-width: 600px;
   margin: 60px auto;
 }
-
-

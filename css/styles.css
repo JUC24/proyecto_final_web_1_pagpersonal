@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   font-family: 'Cinzel', arial, helvetica, sans-serif;
   background: url(../imgs/backgrounds/first_backgrund.jpg) no-repeat;
@@ -6,44 +6,44 @@ body{
   color:white;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   margin: 15px;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 15px;
 }
 
-h2{
+h2 {
   font-size: 40px;
   line-height: 15px;
 }
 
-span{
+span {
   font-weight: 700;
   font-size: 24px;
 }
 
-.img{
+.img {
   max-width: 550px;
   max-height: 550px;
   border-radius: 50px;
 }
 
-.img_per{
+.img_per {
   border-radius: 50%;
   max-width: 200px;
 }
 
-.recently_projects{
+.recently_projects {
   max-width: 1000px;
   margin: 130px auto 0px auto;
 }
 
-.img_flex_conteiner{
+.img_conteiner {
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -51,7 +51,7 @@ span{
   margin: 50px auto 0px auto;
 }
 
-.header_flex_conteiner{
+.header_conteiner {
   max-width: 1000px;
   margin: 30px auto 0px auto;
   display: flex;
@@ -59,19 +59,19 @@ span{
   justify-content: space-around;
 }
 
-.about_me_flex_conyeinar{
+.about_me_conyeinar {
   display: flex;
   align-items: center;
   max-width: 1000px;
   margin: 130px auto 0px auto;
 }
 
-.about_me_text_box{
+.about_me_text_box { 
   max-width: 600px;
   margin-left: 50px;
 }
 
-.footer_flex_conteiner{
+.footer_conteiner {
   max-width: 1000px;
   margin: 130px auto 40px auto;
   display: flex;
@@ -80,12 +80,12 @@ span{
   font-size: 24px;
 }
 
-.text_style{
+.text_style { 
   font-weight: 600;
   font-size: 22px;
 }
 
-.descript_text{
+.descript_text {
   font-weight: 600;
   font-size: 18px;
 }

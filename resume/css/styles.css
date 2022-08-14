@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   font-family: 'Cinzel', arial, helvetica, sans-serif;
   background: url(../../imgs/backgrounds/first_backgrund.jpg) no-repeat;
@@ -6,41 +6,41 @@ body{
   color:white;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   margin: 15px;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 15px;
 }
 
-h2{
+h2 {
   font-size: 42px;
   line-height: 15px;
   margin-bottom: 50px;
 }
 
-h3{
+h3 {
   font-weight: 600;
   font-size: 36px;
   line-height: 10px;
 }
 
-h4{
+h4 {
   font-weight: 600;
   font-size: 28px;
   line-height: 10px;
 }
 
-.text_style{
+.text_style {
   font-weight: 600;
   font-size: 22px;
 }
 
-.header_flex_conteiner{
+.header_conteiner {
   max-width: 1000px;
   margin: 30px auto 0px auto;
   display: flex;
@@ -48,17 +48,17 @@ h4{
   justify-content: space-around;
 }
 
-.resume_conteiner{
+.resume_conteiner {
   max-width: 1000px;
   margin: 120px auto 0px auto;
 }
 
-.ul_text{
+.ul_text {
   font-weight: 600;
   font-size: 18px;
 }
 
-.footer_flex_conteiner{
+.footer_conteiner {
   max-width: 1000px;
   margin: 120px auto 40px auto;
   display: flex;
